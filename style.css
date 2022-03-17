@@ -1,0 +1,16 @@
+html,body{
+background-color:deepskyblue;
+}
+
+canvas{
+border:2px solid rgb(15, 15, 15);
+border-radius: 20px;
+animation-name:example;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+@keyframes example{
+from{box-shadow: 1px 1px 30px grey;}
+to{box-shadow:1px 1px 30px white;}
+}
+    
